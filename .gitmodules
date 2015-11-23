@@ -1,0 +1,3 @@
+[submodule "third_parties/avatar"]
+	path = third_parties/avatar
+	url = https://github.com/arnaud-ramey/avatar.git

@@ -21,6 +21,9 @@ include_directories( ${catkin_INCLUDE_DIRS} )
 add_executable       (topics_timer_image.exe  src/topics_timer_image.cpp)
 target_link_libraries(topics_timer_image.exe  ${catkin_LIBRARIES} ${OpenCV_LIBS})
 
+add_executable       (image_diff.exe  src/image_diff.cpp)
+target_link_libraries(image_diff.exe  ${catkin_LIBRARIES} ${OpenCV_LIBS})
+
 ### 8 - Tests to build (catkin_add_gtest())
 #~ ADD_SUBDIRECTORY(test)
 ### 9 - Install rules (install())

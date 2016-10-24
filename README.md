@@ -1,4 +1,7 @@
 # topics_timer
+
+[![Build Status](https://travis-ci.org/arnaud-ramey/topics_timer.svg)](https://travis-ci.org/arnaud-ramey/topics_timer)
+
 ROS package to measure elapsed time between
 each message of a "sensor_msgs::Image" topic and the corresponding
 message on the "sensor_msgs::CompressedImage" topic.
